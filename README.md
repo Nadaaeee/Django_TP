@@ -2,38 +2,38 @@
 
 Clonez le dépôt du projet depuis GitHub :
 
-    git clone https://github.com/vrakoto/td-djangorestapi-RAKOTOARISOA-CARELLIEN.git
+    git clone https://github.com/Nadaaeee/Django_TP.git
 
 Accédez au répertoire du projet :
 
-    cd projet-recherche-chercheur
+    cd projet search
 
 Créez un environnement virtuel Python :
 
-    python3 -m venv venv
+    python3 -m venv .venv
 
 Activez l'environnement virtuel sur Windows :
 
-    venv\Scripts\activate
+    .venv\Scripts\activate
 
 
 Installez les dépendances du projet :
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 # Configuration
 
 Effectuez les migrations de la base de données :
 
-    python manage.py migrate
+    python3 manage.py migrate
 
 Créez un superutilisateur pour s'authentifier à l'application :
 
-    python manage.py createsuperuser
+    python3 manage.py createsuperuser
 
 Lancez le serveur de développement :
 
-    python manage.py runserver
+    python3 manage.py runserver
 
 L'application devrait maintenant être accessible à l'adresse http://localhost:8000.
 
